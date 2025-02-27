@@ -50,7 +50,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Title
-st.markdown('<h1 class="title">🔢 Linear Equation Solver</h1>', unsafe_allow_html=True)
+st.markdown('<h1 class="title">🔢 Linear Equation Solver using Gaussian Elimination</h1>', unsafe_allow_html=True)
 
 # Function for Gaussian Elimination with Pivoting
 def gaussian_elimination_pivoting(A, b):
